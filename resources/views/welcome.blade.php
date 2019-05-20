@@ -9,3 +9,7 @@
 @section('content')
 
 @endsection
+
+@section('footer')
+    @parent
+@endsection
