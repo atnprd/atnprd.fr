@@ -75,13 +75,13 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="d-flex justify-content-center flex-center">
-							<a href="#">
+							<a href="https://www.linkedin.com/in/antoine-perrenoud-501ab3158/">
 								<i class="fab fa-linkedin fa-2x mx-4 my-3"> </i>
 							</a>
-							<a>
+							<a href="https://github.com/atnprd">
 								<i class="fab fa-github fa-2x mx-4 my-3"></i>
 							</a>
-							<a>
+							<a href="mailto:antoineperrenoud02@gmail.com">
 								<i class="far fa-envelope fa-2x mx-4 my-3"></i>
 							</a>
 						</div>
@@ -89,7 +89,7 @@
 				</div>
 			</div>
 			<div class="text-center py-3">
-				<a href="#">atnprd.fr </a> <i class="far fa-copyright"></i> 2019
+				<a href="#">atnprd.fr</a> <i class="far fa-copyright"></i> 2019
 			</div>
 		</footer>
 		@show
