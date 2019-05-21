@@ -40,52 +40,56 @@
 			@yield('content')
 		</div>
 		@section('footer')
-		<footer>
+		<footer class="bg-light">
 			<div class="container-fluid text-center">
-				<div class="row">
+				<div class="row mt-4 pt-3">
 					<div class="container-fluid text-md-left">
 						<div class="row">
-							<div class="col-md-5 offset-md-2">
-							<h5 class="text-uppercase font-weight-bold">atnprd.fr</h5>
-							<p>
-								Ce site est une présentation de mon travail et de mon CV, mais c'est aussi un site d'expérimentation. Si vous rencontrez d'éventuels problèmes ou bugs, n'hésitez pas à me les faire remarquer !
-							</p>
-						</div>
-						<div class="col-md-3 offset-md-2">
-							<h5 class="font-weight-bold text-uppercase">Catégories</h5>
-							<ul class="list-unstyled">
-								<li>
-									<a href="#!">Présentation</a>
-								</li>
-								<li>
-									<a href="#!">Parcours</a>
-								</li>
-								<li>
-									<a href="#!">Compétences</a>
-								</li>
-								<li>
-									<a href="#!">Réalisations</a>
-								</li>
-							</ul>
-						</div>
+							<div class="col-md-5 col-sm-12 offset-md-1">
+								<h5 class="text-uppercase font-weight-bold">à propos</h5>
+								<p>
+									Ce site est une présentation de mon travail, de mon CV et un site d'expérimentation.
+									Si vous rencontrez d'éventuels problèmes ou bugs, n'hésitez pas à me les faire remarquer via les boutons de contact ci-dessous.
+								</p>
+							</div>
+							<div class="col-md-1 col-sm-12 offset-md-3">
+								<h5 class="font-weight-bold text-uppercase">Catégories</h5>
+								<ul class="list-unstyled">
+									<li>
+										<a href="#!">Présentation</a>
+									</li>
+									<li>
+										<a href="#!">Parcours</a>
+									</li>
+									<li>
+										<a href="#!">Compétences</a>
+									</li>
+									<li>
+										<a href="#!">Réalisations</a>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
 						<div class="d-flex justify-content-center flex-center">
-							<a>
-								<i class="fab fa-facebook-f fa-2x"> </i>
+							<a href="#">
+								<i class="fab fa-linkedin fa-2x mx-4 my-3"> </i>
 							</a>
 							<a>
-								<i class="far fa-envelope fa-2x"></i>
+								<i class="fab fa-github fa-2x mx-4 my-3"></i>
+							</a>
+							<a>
+								<i class="far fa-envelope fa-2x mx-4 my-3"></i>
 							</a>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="text-center">
-				<a href="#">atnprd.fr </a> © 2019
+			<div class="text-center py-3">
+				<a href="#">atnprd.fr </a> <i class="far fa-copyright"></i> 2019
 			</div>
 		</footer>
 		@show
