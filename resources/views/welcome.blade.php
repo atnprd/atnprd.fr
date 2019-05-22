@@ -1,11 +1,8 @@
 @extends('layouts.main')
-
 @section('title', 'antprd.fr')
-
 @section('header')
 @parent
 @endsection
-
 @section('content')
 <section class="d-flex justify-content-center">
     <div class="container-fluid">
@@ -115,8 +112,75 @@
         </div>
     </div>
 </section>
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h4 class="mb-5 mt-4">Compétences</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="mb-3">Langages de programmation</div>
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <i class="fab fa-html5 fa-2x p-2"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fab fa-css3-alt fa-2x p-2"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fab fa-php fa-2x p-2"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fab fa-js-square fa-2x p-2"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fab fa-java fa-2x p-2"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fab fa-python fa-2x p-2"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="far fa-copyright fa-2x p-2"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fas fa-database fa-2x p-2"></i>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <div class="mb-3">Systèmes et réseaux</div>
+                <ul>
+                    <li>
+                        <p>Obtention du CCNA2 en 2019</p>
+                    </li>
+                    <li>
+                        <p>Conception de réseaux locaux</p>
+                    </li>
+                    <li>
+                        <p>Systèmes et protocoles</p>
+                    </li>
+                    <li>
+                        <p>Architectures réseaux</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <div class="mb-3">Langues</div>
+                <ul>
+                    <li>
+                        <p>Anglais : Professionnel (Cambridge English Certificate en 2017)</p>
+                    </li>
+                    <li>
+                        <p>Allemand : Niveau scolaire</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
 @endsection
-
 @section('footer')
 @parent
 @endsection
