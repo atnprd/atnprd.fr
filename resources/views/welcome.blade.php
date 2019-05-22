@@ -62,6 +62,59 @@
         </div>
     </div>
 </section>
+<section class="d-flex justify-content-center">
+    <div class="container-fluid">
+        <div class="row w-100">
+            <div class="col-md-12">
+                <h4 class="mb-5 mt-4">Formation</h4>
+            </div>
+        </div>
+        <div class="row w-100 mb-4">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5 class="mb-1">eXia.CESI École d'Ingénieurs Informatiques</h5>
+                        <h6 class="text-secondary mb-3">Strasbourg</h6>
+                    </div>
+                    <div class="col-md-6 text-md-right">
+                        <span class="text-primary">2017 - 2022</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>
+                            Diplôme d'Ingénieur Informatique.
+                            <br>
+                            Pendant 2 ans (dont une en tant que CM), membre de l'association étudiante eXia.LAN, organisatrice de LANs de jeux vidéos.
+                            <br>
+                            Actuellement en 2ème année.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row w-100 mb-4">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5 class="mb-1">Lycée Fustel de Coulanges</h5>
+                        <h6 class="text-secondary mb-3">Strasbourg</h6>
+                    </div>
+                    <div class="col-md-6 text-md-right">
+                        <span class="text-primary">2017</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>
+                            Obtention du Baccalauréat scientifique SVT spécialité Maths avec mention AB et mention DNL Anglais (Histoire-Géographie).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 @endsection
 
 @section('footer')
